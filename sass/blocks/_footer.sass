@@ -1,0 +1,149 @@
+.footer
+  padding: 108px 0 46px
+  background-color: $dark
+  &-wrapper
+    display: grid
+    grid-template-columns: repeat(4, minmax(min-content, 1fr))
+    grid-auto-rows: minmax(35px, min-content)
+    row-gap: 24px
+    column-gap: 24px
+    margin-bottom: 95px
+  &__logo
+    width: 153px
+    grid-row: 1 / 3
+    align-self: center
+    &-image
+      height: 192px
+  &__categories
+    grid-row: 1 / 3
+  &__legal
+    justify-self: end
+  &__title
+    margin: 0 0 17px
+    color: $light
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+    text-transform: uppercase
+    &--inline
+      margin: 0 43px 0 0
+    &--mb-26px
+      margin: 0 0 26px
+    &--mb-34px
+      margin: 0 0 34px
+  &__ul
+    padding: 0
+    margin: 0
+    list-style: none
+    &--horizontal
+      grid-column: 2
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      width: 283px
+  &__item
+    display: flex
+    align-items: flex-start
+    font-weight: normal
+    font-size: 14px
+    line-height: 160%
+    color: $footer-text-color
+    &--mb-20px
+      margin-bottom: 20px
+    &--horizontal
+      margin-bottom: 5px
+      font-size: 12px
+      line-height: 15px
+      color: $light
+  &__phone
+    &-text
+      margin: 0
+    &-link
+      text-decoration: none
+      color: inherit
+  &__mail-link
+    text-decoration: none
+    color: inherit
+  &__link
+    text-decoration: none
+    color: inherit
+  &__social
+    &-networks
+      grid-row: 2 / 3
+      grid-column: span 2
+      display: flex
+      align-items: start
+    &-icon
+      width: 20px
+      height: 20px
+    &-links
+      display: flex
+      align-items: center
+      justify-content: space-between
+      min-width: 83px
+      height: 23px
+      line-height: 1px
+  &__contact
+    &-details
+      grid-row: 4 / 5
+      grid-column: span 2
+      align-self: start
+      margin-top: 11px
+    &-form
+      grid-row: 4 / 5
+      grid-column: span 2
+  &__text
+    margin: 0 0 22px
+    font-size: 14px
+    line-height: 160%
+    color: $footer-text-color
+  &__icon
+    width: 18px
+    height: 19px
+    object-fit: contain
+    &-wrapper
+      min-width: 40px
+      min-height: 22px
+      display: flex
+      align-items: center
+      margin-left: 7px
+  &__form
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+  &__input
+    width: 100%
+    height: 50px
+    background-color: #fff
+    &-group
+      padding-top: 0
+      display: flex
+      width: 255px
+      margin-bottom: 15px
+      border-radius: 4px
+  &__message
+    width: 100%
+    height: 123px
+    margin-bottom: 22px
+  &__button
+    min-width: 160px
+    max-width: 70%
+    min-height: 50px
+    font-weight: bold
+    font-size: 12px
+    line-height: 15px
+  &__info
+    font-weight: bold
+    font-size: 12px
+    line-height: 15px
+    color: #E0E0E0
+  &-bottom-wrapper
+    display: grid
+    grid-template-columns: 1fr 283px 1fr
+    grid-auto-rows: min-content
+  &__sponsor
+    width: 136px
+    height: 22px
+    grid-column: 3
+    justify-self: end
